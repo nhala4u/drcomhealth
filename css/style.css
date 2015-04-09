@@ -1,0 +1,96 @@
+body {overflow-x: hidden; overflow-y: hidden; height: auto;}
+/* Header */
+header#header {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;}
+header#header .navbar.sticky { height: 50px; padding: 0 0 0 0; border-bottom: 1px solid #57c5c6;
+	background-color: rgba(255,255,255,.85);
+	-webkit-box-shadow: 0 0 7px #1d8181;
+	 		box-shadow: 0 0 7px #1d8181;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;}
+/* @END - Header */
+
+/* Main */
+main {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;}
+main article#wrapper section { opacity: 0;
+	-webkit-transition: opacity 500ms;
+		 -o-transition: opacity 500ms;
+			transition: opacity 500ms;}
+/* @END - Main */
+
+/* Footer */
+footer#footer {margin: 0 0 0 0; min-height: 200px; padding: 20px 0 0 0; border-top: 10px solid #feaf33; color: #57c5c6;
+	background-color: #1d8181;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;}
+footer#footer a  {color: #57c5c6}
+footer#footer h4 {color: #57c5c6}
+footer#footer hr {border-top-color: #278F90; margin: 10px 0;}
+footer#footer address {margin-bottom: 0;}
+
+footer#footer nav.social a { width: 35px; height: 35px; display: inline-block; color: #fff !important; vertical-align: middle; font-size: 20px; text-align: center;
+	line-height: 35px; margin-right: 5px;
+	background-color: #57c5c6;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		 -o-border-radius: 50%;
+			border-radius: 50%;
+	-webkit-box-shadow: -1px -1px 2px #333 inset;
+	 		box-shadow: -1px -1px 2px #333 inset;}
+footer#footer nav.social a:hover {background-color: #0091b3;}
+/* @END - Footer */
+
+/* Popup */
+.overlay{ margin: 0; padding: 0; width: 100%; height: 100%; position: fixed; top: 0; left: 0; right: 0; bottom: 0; display: none; z-index: 3333;
+	overflow-x: hidden; overflow-y: hidden;
+	background-color: rgba(0,0,0,.5);
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;}
+#popup  {padding: 20px; position: fixed; top: 50%; left: 50%; display: none; z-index: 4444; 
+	background-color: rgba(255,255,255,1);
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	-webkit-box-shadow: 0 0 7px #333;
+	 		box-shadow: 0 0 7px #333;}
+	#popup.lg {width: 700px; height: 500px; margin: -250px 0 0 -350px;}
+	#popup.md {width: 700px; height: 500px; margin: -250px 0 0 -350px;}
+	#popup.sm {width: 700px; height: 500px; margin: -250px 0 0 -350px;}
+	#popup .container {width: 100%;}
+	#popup .content {text-align: justify; width: inherit;}
+	#popup .close {width: 40px; height: 40px; position: absolute; top: -20px; right: -20px; opacity: .9;
+		background-color: #57c5c6;
+		-webkit-border-radius: 50%;
+		   -moz-border-radius: 50%;
+			-ms-border-radius: 50%;
+			 -o-border-radius: 50%;
+				border-radius: 50%;}
+	#popup .close:before {content: "X"; font-size: 30px; font-weight: 300; position: relative; left: 11px; width: inherit; height: inherit;
+		display: flex; align-items: center; text-align: center; color: #fff;}
+	#popup h4 {margin: 0 0 10px 0; padding: 0 0 5px 0; border-bottom: 1px solid #eee;}
+/* @END - Popup */
+
+/* Single Element */
+.arrow:after { content: " "; width: 0; height: 0; position: absolute; top: 100%; left: 50%; border: solid transparent; pointer-events: none;}
+.arrow:after { margin-left: -20px; border-width: 20px; border-color: rgba(136, 183, 213, 0); border-top-color: #57c5c6;}
+.arrow.ar-white:after {border-top-color: red;}
+
+.current 	{ background-color: #57c5c6; color: #fff !important}
+.img-circle { background-color: #57c5c6;}
+.txt-center { text-align: center;}
+.vertical-align {display: flex; align-items: center; height: 120px;}
+.loading 	{ width: 100%; height: 100%; top: 0px; left: 0px; bottom: 0; right: 0; position: fixed; z-index: 9999;
+	background: url('../images/icons/loading.gif') center no-repeat #fff;}
+	/* .loading:after { content: "loading..."; position: fixed; width: 100px; height: auto; top: 50%; left: 50%; text-align: center;
+		margin: 27px 0 0 -50px; color: #999;} */
+
+/* @END - Single Element */

@@ -1,0 +1,29 @@
+body {margin: 0; padding: 0;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {color: #0091b3;}
+
+/* Navigation Bar */
+.navbar {margin-bottom: 0; height: 145px; padding: 95px 0 0 0;  border-bottom: 1px solid #fff;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	-webkit-transition: all 400ms ease;
+		 -o-transition: all 400ms ease;
+			transition: all 400ms ease;}
+
+.navbar-inverse {background: #fff; border: none;
+	-webkit-border-radius: 0;
+	   -moz-border-radius: 0;
+		-ms-border-radius: 0;
+		 -o-border-radius: 0;
+			border-radius: 0;}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {color: #0091b3; font-size: 18px;}
+.navbar-inverse .navbar-nav>li.current>a {color: #fff;}
+.navbar-inverse .navbar-nav>li>a:hover {background-color: #57c5c6; color: #fff !important;}
+.navbar-inverse .navbar-toggle   {border-color: #0091b3;}
+.navbar-inverse .navbar-toggle .icon-bar {background-color: #0091b3;}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {background-color: #57c5c6;}
+/* @END - Navigation Bar */
+
+.carousel {margin-bottom: 10px;}
+.carousel .item {background-color: #57c5c6;}
