@@ -13,12 +13,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul id="nav" class="nav navbar-nav navbar-right">
             	<li><a class="nav-1" href="#homepage">Home</a></li>
-            	<li><a class="nav-2" href="#expertise">Our Expertise</a></li>
-            	<li><a class="nav-3" href="story.html">Our Story</a></li>
-            	<li><a class="nav-4" href="#team">Our Team</a></li>
-            	<li><a class="nav-5" href="career.html">Career</a></li>
+            	<li><a class="nav-2" href="#expertise">Our expertise</a></li>
+            	<li><a class="nav-3" href="#team">Our team</a></li>
+            	<li><a class="nav-4" href="#team">Success stories</a></li>
             	<li><a class="nav-6" href="news.html">News</a></li>
-            	<li><a class="nav-7" href="404.html">Contact Us</a></li>
+                <li><a class="nav-5" href="career.html">Career</a></li>
+            	<li><a class="nav-7" href="404.html">Contact us</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
