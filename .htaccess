@@ -1,2 +1,24 @@
+Options +FollowSymLinks
 RewriteEngine On
-RewriteRule ^career.html career.php [L]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+ErrorDocument 404 http://drcomhealth.dr/404.html
+
+DirectoryIndex index.html
+
+Redirect 301 /view.html&career=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&career=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&career=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+
+Redirect 301 /view.html&news=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&news=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&news=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+
+Redirect 301 /view.html&stories=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&stories=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+Redirect 301 /view.html&stories=this-is-my-story http://drcomhealth.dr/view/career/this-is-my-story.html
+
+

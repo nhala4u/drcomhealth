@@ -15,9 +15,11 @@
             	<li><a class="nav-1" href="#homepage">Home</a></li>
             	<li><a class="nav-2" href="#expertise">Our expertise</a></li>
             	<li><a class="nav-3" href="#team">Our team</a></li>
-            	<li><a class="nav-4" href="#team">Success stories</a></li>
-            	<li><a class="nav-6" href="news.html">News</a></li>
-                <li><a class="nav-5" href="career.html">Career</a></li>
+
+            	<li><a class="nav-4" href="view.html&stories=this-is-my-story">Success stories</a></li>
+            	<li><a class="nav-6" href="view.html&news=this-is-my-story">News</a></li>
+                <li><a class="nav-5" href="view.html&career=this-is-my-story">Career</a></li>
+                
             	<li><a class="nav-7" href="404.html">Contact us</a></li>
             </ul>
         </div>
